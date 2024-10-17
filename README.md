@@ -4,17 +4,6 @@
 
 The **Build Data Cleaning Task** focuses on cleaning and preparing raw job data scraped from the Indeed website for downstream processes. This involves loading data from Amazon S3, performing deduplication, renaming columns for consistency, and adding metadata to facilitate tracking and analysis.
 
-## **Table of Contents**
-
-- [Description](#description)
-- [Steps](#steps)
-- [Notes](#notes)
-  - [09/27/2024](#09272024)
-  - [10/04/2024](#10042024)
-- [Key Considerations](#key-considerations)
-- [Final Outputs](#final-outputs)
-- [Questions](#questions)
-
 ## **Steps**
 
 ### 1. **Load Data from S3**
@@ -64,7 +53,7 @@ Create the `cleaned_job_data_9_26` table in the `job_market_raw` schema and impo
 
 ## **Notes**
 
-### **09/27/2024**
+
 
 - **Step 1 - Load Data from S3**
   - Retrieved the CSV files from the S3 bucket.
